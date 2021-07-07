@@ -16,8 +16,6 @@
 // }
 
 
-// console.log(sum);
-
 // ------------ WHILE --------------
 
 var sum = 0;
@@ -32,4 +30,7 @@ while (i < 5) {
     i++;
 }
 
-console.log(sum);
+
+var getDocument = document.getElementById('print');
+
+getDocument.innerHTML = sum;

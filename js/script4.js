@@ -16,6 +16,3 @@ do {
         secondArray.push(randomNumber);
     }
 } while (firstArray.length !== secondArray.length);
-
-console.table(firstArray);
-console.table(secondArray);

@@ -16,3 +16,8 @@ for (var i = 0; i < 3; i++) {
 }
 
 console.table(invited);
+
+
+var getDocument = document.getElementById('print');
+
+getDocument.innerHTML = invited.join(", ");
